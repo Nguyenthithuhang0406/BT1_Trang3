@@ -551,7 +551,7 @@
   }
 
   .fa-bars {
-    display: block;
+    display: block !important;
     font-size: 30px;
   }
 
@@ -561,10 +561,12 @@
     font-weight: 700;
     line-height: 42.96px;
     text-align: center;
+    margin: 52px 20px;
+    margin-bottom: 24px;
   }
 
   .banner-p {
-    padding: 0 20px;
+    padding: 0px 20px;
     font-family: 'New-York-Small', sans-serif;
     font-size: 16px;
     font-weight: 400;
