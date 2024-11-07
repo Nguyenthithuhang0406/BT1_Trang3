@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "New York Extra Large";
+  src: url("fonts/new-york-extra-large-cufonfonts/NewYorkExtraLargeMedium.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("fonts/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("fonts/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .articles-page {
   margin: 0;
   padding: 0;
@@ -48,7 +68,7 @@
 
 @font-face {
   font-family: 'New-York-Small';
-  src: url('fonts/fonnts.com-New_York_Small_Medium.ttf') format('woff2');
+  src: url('fonts/new-york-small/FontsFree-Net-NewYorkSmallRegular.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -68,15 +88,6 @@
   padding: 0px;
 }
 
-.banner-title {
-  margin: 0 291px;
-  font-family: "New-York-Small", sans-serif;
-  font-size: 54px;
-  font-weight: 700;
-  line-height: 54px;
-  text-align: center;
-}
-
 .banner-img {
   width: 100%;
   height: 900px;
@@ -84,8 +95,9 @@
 }
 
 .banner-title {
+  margin: 0 291px;
   margin-top: 52px;
-  font-family: "New-York-Small", sans-serif;
+  font-family: "New York Extra Large", sans-serif;
   font-size: 54px;
   font-weight: 700;
   line-height: 54px;
@@ -95,10 +107,18 @@
 
 @font-face {
   font-family: 'SF-Mono';
-  src: url('fonts/SFMonoLight.woff') format('woff2');
+  src: url('fonts/sf-mono/SFMonoRegular.otf') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("fonts/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
 
 .banner-p {
   margin-top: 32px;
@@ -141,7 +161,7 @@
 }
 
 .name-user {
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 19.09px;
@@ -150,7 +170,7 @@
 }
 
 .date {
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.09px;
@@ -195,7 +215,7 @@
 
 .post-title {
   margin: 0 400px;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 51.2px;
@@ -217,7 +237,7 @@
 
 .post-nameImg {
   width: 481px;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 22.4px;
@@ -227,7 +247,7 @@
 
 .post-content-1 {
   margin: 0px 400px;
-  font-family: 'New-York-Small', sans-serif;
+  font-family: 'New York Extra Large', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 34px;
@@ -251,7 +271,7 @@
 }
 
 .list-idea li {
-  font-family: 'New-York-Small', sans-serif;
+  font-family: 'New York Extra Large', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 34px;
@@ -282,7 +302,7 @@
 
 .post-tag {
   margin: 0px 400px;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.09px;
@@ -309,7 +329,7 @@
 }
 
 .post-f-p {
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
@@ -340,7 +360,7 @@
 }
 
 .title-list-post {
-  font-family: 'New-York-Small', sans-serif;
+  font-family: 'New York Extra Large', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 52.51px;
@@ -368,7 +388,7 @@
 .post-content-item {
   padding: 0 10px;
   margin-top: 20px;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 26.4px;
@@ -385,7 +405,7 @@
 
 .f-form-title {
   margin-top: 38px;
-  font-family: 'New-York-Small', sans-serif;
+  font-family: 'New York Extra Large', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 28px;
@@ -395,7 +415,7 @@
 .f-form-description {
   width: 538px;
   margin: 36px auto;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -425,7 +445,7 @@
   height: 54px;
   background-color: #000000;
   color: #FFFFFF;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 23.87px;
@@ -449,7 +469,7 @@
 }
 
 .f-menu-1 {
-  font-family: 'FS-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 28px;
@@ -459,7 +479,7 @@
 }
 
 .f-menu-2 {
-  font-family: 'FS-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -517,7 +537,7 @@
 .f-copywriter {
   margin: 64px auto;
   width: 178px;
-  font-family: 'SF-Mono', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 12px;
   font-weight: 500;
   /* line-height: 16.8px; */
